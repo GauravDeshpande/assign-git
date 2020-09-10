@@ -30,7 +30,8 @@ hs_err_pid*
 
 2. What does fast-forward in Git mean?
 Fast-forward in git means when you are rebasing or merging against a branch 
-that is ahead of the branch that was checked-out 
+that is ahead of the branch that was checked-out. Also the branch that is merging will
+contain all the same commits that the branch merging into has.
 
 3. Why should you have different branches?
 Having different branches is especially important for version control 
